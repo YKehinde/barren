@@ -1,0 +1,3 @@
+[submodule "kickoff"]
+	path = kickoff
+	url = git://github.com/tmwagency/kickoff.git
