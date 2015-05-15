@@ -14,8 +14,10 @@
 		<!--[if lte IE 8]>
                         <link rel="stylesheet"  href="<?php bloginfo('stylesheet_directory'); ?>/css/kickoff-old-ie.css" />
 		<![endif]-->
+						<!-- Remove the bloginfo php script if css folder is in the root directory -->
 		<!--[if gt IE 8]><!-->
 			<link rel="stylesheet"  href="<?php bloginfo('stylesheet_directory'); ?>/css/kickoff.css" />
+						<!-- Remove the bloginfo php script if css folder is in the root directory -->
 		<!--<![endif]-->
 			
     <script>
